@@ -6,7 +6,6 @@ projects:
     autoplan:
       when_modified: ["**/*.tf*"]
       enabled: true
-    apply_requirements: ["approved"]
 
 
   - name: prod
@@ -15,4 +14,3 @@ projects:
     autoplan:
       when_modified: ["**/*.tf*"]
       enabled: true
-    apply_requirements: ["approved"]
