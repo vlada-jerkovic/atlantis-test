@@ -4,15 +4,13 @@ projects:
     dir: envs/stage
     workspace: stage
     autoplan:
-    when_modified: ["**/*.tf*"]
-    enabled: true
-    apply_requirements: ["approved"]
+      when_modified: ["**/*.tf*"]
+      enabled: true
 
 
   - name: prod
     dir: envs/prod
     workspace: prod
     autoplan:
-    when_modified: ["**/*.tf*"]
-    enabled: true
-    apply_requirements: ["approved"]
+      when_modified: ["**/*.tf*"]
+      enabled: true
